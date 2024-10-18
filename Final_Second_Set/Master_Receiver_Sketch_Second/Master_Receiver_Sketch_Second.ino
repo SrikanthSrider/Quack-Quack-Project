@@ -194,7 +194,7 @@ AudioOutputI2S *output;
 //------------------------Function------------------------------//
 void Quack_Quack() {
   if (button_quack_count == 1 || button_quack_count == 2) {
-    file = new AudioFileSourceSPIFFS("/Double Quack.wav");
+    file = new AudioFileSourceSPIFFS("/your_audio_file_name.wav");
 
     // Check if the file was opened successfully
     if (!file->isOpen()) {
@@ -219,19 +219,6 @@ void Quack_Quack() {
 //-----------------------------------------LED Libraries and Functions Special-------------------------------------------------------//
 
 //----------------------------ColourSwitch Function-------------------------------//
-/*void SwitchColour() {
-  // Check if the count is within the valid range
-  if (LED_ON == true) {
-    if (button_light_count >= 1 && button_light_count <= 7) {
-      // Fade down
-      Fade_down();
-      // Set color based on count
-      Set_Colour(colours[button_light_count - 1]);  // Array index is 0-based
-      // Fade up
-      Fade_up();
-    }
-  }
-}*/
 
 int last_colour;
 
@@ -458,9 +445,6 @@ void setup() {
 //-----------------------------Motor Setup-------------------------------------//
   Servo1.attach(Servo1_pin);
   Servo2.attach(Servo2_pin);
-
-  //Servo1.setPeriodHertz(200);
-  //Servo2.setPeriodHertz(200);
 
 //-----------------------------------------------------------------------------//
 
