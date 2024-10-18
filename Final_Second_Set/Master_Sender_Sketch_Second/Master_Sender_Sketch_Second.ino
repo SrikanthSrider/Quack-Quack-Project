@@ -21,6 +21,8 @@ struct_message myData;
 
 esp_now_peer_info_t peerInfo;
 
+//use the below print statement to check that the connection is up and running
+
 /*void OnDataSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
   Serial.print("\r\nLast Packet Send Status:\t");
   Serial.println(status == ESP_NOW_SEND_SUCCESS ? "Delivery Success" : "Delivery Fail");
