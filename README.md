@@ -3,7 +3,7 @@ Codes for controlling lighting, sound and movement for any robot creations. In t
 
 ## Picture
 
-![Duck Head On](https://github.com/user-attachments/assets/edc6f4a2-f1a6-4262-91e0-2ef387fea038)
+![Duck Head On](https://github.com/user-attachments/assets/edc6f4a2-f1a6-4262-91e0-2ef387fea038) <img src="https://github.com/user-attachments/assets/edc6f4a2-f1a6-4262-91e0-2ef387fea038" width="100" height="100"/>
 
 
 ### Movement
